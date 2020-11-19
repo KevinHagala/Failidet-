@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClearFolder", "ClearFolder\ClearFolder.csproj", "{D38C6B59-46A3-4104-8A13-0A39EE6AB8B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearFolder", "ClearFolder\ClearFolder.csproj", "{D38C6B59-46A3-4104-8A13-0A39EE6AB8B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "createDirectory", "createDirectory\createDirectory.csproj", "{568B37BF-6DEC-4D35-AF23-98806CF35F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "createDirectory", "createDirectory\createDirectory.csproj", "{568B37BF-6DEC-4D35-AF23-98806CF35F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateNewFile", "CreateNewFile\CreateNewFile.csproj", "{856841DC-088B-40F5-B234-E35A90832DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move file", "Move file\Move file.csproj", "{BA06D7B3-A86F-4DE7-B90F-DAD26131BD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movefile", "Movefile\Movefile.csproj", "{3A7146FF-DCD1-4F79-8758-708E726E9F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteFile", "DeleteFile\DeleteFile.csproj", "{BD9DE094-3DBD-4655-B216-523E7D797DE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{568B37BF-6DEC-4D35-AF23-98806CF35F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{568B37BF-6DEC-4D35-AF23-98806CF35F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{568B37BF-6DEC-4D35-AF23-98806CF35F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856841DC-088B-40F5-B234-E35A90832DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856841DC-088B-40F5-B234-E35A90832DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856841DC-088B-40F5-B234-E35A90832DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856841DC-088B-40F5-B234-E35A90832DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA06D7B3-A86F-4DE7-B90F-DAD26131BD86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA06D7B3-A86F-4DE7-B90F-DAD26131BD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA06D7B3-A86F-4DE7-B90F-DAD26131BD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA06D7B3-A86F-4DE7-B90F-DAD26131BD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7146FF-DCD1-4F79-8758-708E726E9F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7146FF-DCD1-4F79-8758-708E726E9F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7146FF-DCD1-4F79-8758-708E726E9F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7146FF-DCD1-4F79-8758-708E726E9F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9DE094-3DBD-4655-B216-523E7D797DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9DE094-3DBD-4655-B216-523E7D797DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9DE094-3DBD-4655-B216-523E7D797DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9DE094-3DBD-4655-B216-523E7D797DE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
